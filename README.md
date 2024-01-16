@@ -4,6 +4,8 @@
 
 `poezii_in_cli.sh` is a lightweight script that brings the beauty of Romanian poetry to your CLI. With a focus on simplicity and ease of use, this script is design for searching and reading poetry from Romanian authors.
 
+![](poezii_in_cli.png)
+
 ## Features
 
 - The CLI provides a straightforward and user-friendly experience, navigating through the poetry collection with minimal effort.
