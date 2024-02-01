@@ -11,4 +11,4 @@ fi
 
 preview_size="right:37%"
 
-find $datadir -type f | sed 's|^'$datadir'/||' | fzf --height 100% --pointer='➤' --preview 'less '$datadir'/{}' --preview-window "$preview_size" --bind 'enter:execute(less '$datadir'/{})' --color 'fg:57,fg+:93,bg:234,preview-bg:232,border:201'
+find $datadir -type f | sed 's|^'$datadir'/||' | fzf --height 100% --pointer='➤' --preview 'less '$datadir'/{}' --preview-window "$preview_size" --bind 'enter:execute(less '$datadir'/{})' --color 'fg:#ffc0cb,fg+:201,bg:234,preview-bg:#010203,border:201'
